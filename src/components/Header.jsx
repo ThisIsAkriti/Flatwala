@@ -1,8 +1,11 @@
 import logo from '/images/logo.jpeg';
+import Headroom from "react-headroom";
+
 const Header = () => {
     return(
         <>
-            <header className="mt-2 flex justify-between h-14 bg-black items-center font-poppins px-6">
+        <Headroom>
+            <header className=" flex justify-between h-14 bg-black items-center font-poppins px-6">
                 <div>
                    <img
                    className="size-14"
@@ -22,6 +25,8 @@ const Header = () => {
                     <button className=" bg-mycolor px-4 py-0 ml-10 shadow-mycolor shadow-md rounded-full font-semibold  text-white">Login</button>
                 </div>
             </header>
+        
+        </Headroom>
         </>
     )
 }

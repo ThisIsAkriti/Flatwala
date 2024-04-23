@@ -3,6 +3,8 @@ import search_Icon from '/images/search_Icon.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import HelpYou from './HelpYou';
+import RentalProperty from './RentProperty';
 
 const Body = () => {
 
@@ -13,7 +15,7 @@ const Body = () => {
         slidesToShow: 5,
         slidesToScroll: 3
       
-      };
+    };
 
     return(
         <div className=' font-poppins'>
@@ -50,37 +52,65 @@ const Body = () => {
             <div className='mt-[58%] flex-row items-center px-6'>
                 <Slider {...settings}>
                     <div className='p-2 '>
-                      <img className=' w-60' src="/images/img1.jpg" alt="flat image" />
-                      <p className=' mt-2'>flat name title</p>
+                        
+                        <img className=' w-60 ' src="/images/img1.jpg" alt="flat image" />
+                        <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
+                      
+                        <p className=' mt-2'>House on cliff</p>
                     </div>
                     <div className='p-2 '>
+
                        <img className=' w-60' src="/images/img2.jpg" alt="flat image" />
-                       <p>flat name title</p>
+                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
+
+                       <p>Independent house</p>
 
                     </div>
+
                     <div className='p-2 '>
+
                        <img className=' w-60' src="/images/img3.jpg" alt="flat image" />
-                       <p>flat name title</p>
+                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>    
+
+                       <p>Fully furnished Home Chattarpur</p>
 
                     </div>
+
                     <div className='p-2 '>
+
                       <img className=' w-60' src="/images/img1.jpg" alt="flat image" />
-                      <p>flat name title</p>
+                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
+
+                      <p>House on hollywood</p>
 
                     </div>
+
                     <div className='p-2 '>
+                        
                       <img className=' w-60' src="/images/img2.jpg" alt="flat image" />
-                      <p>flat name title</p>
+                      <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
+
+                      <p>Independent house</p>
 
                     </div>
                     <div className='p-2 '>
                        <img className=' w-60'  src="/images/img1.jpg" alt="flat image" />
-                       <p>flat name title</p>
+                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
+                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
+
+                       <p>Fully furnished Home Chattarpur</p>
 
                     </div>
                 </Slider>
             </div>
 
+            <HelpYou/>
+            <RentalProperty/>
 
         </div>
     )
