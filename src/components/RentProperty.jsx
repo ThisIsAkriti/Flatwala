@@ -12,7 +12,7 @@ const RentalProperty = () => {
       
     };
     return(
-        <div className=" font-poppins  ">
+        <div className=" font-poppins mb-14 ">
            <div className='ml-16  mb-4'>
                 <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Properties For</p>
                 <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Rent</p>
@@ -141,7 +141,7 @@ const RentalProperty = () => {
             </div>
 
             <div className="flex justify-center ">
-                <button className="bg-button rounded-full px-4 py-2">Load More</button>
+                <button className="bg-button rounded-full px-4 py-2 text-white text-sm shadow-gray-700 shadow-sm">Load More</button>
             </div>
         </div>
     )

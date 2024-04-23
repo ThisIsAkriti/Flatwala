@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import HelpYou from './HelpYou';
 import RentalProperty from './RentProperty';
+import BuyOrSell from './BuyOrSell';
 
 const Body = () => {
 
@@ -111,6 +112,7 @@ const Body = () => {
 
             <HelpYou/>
             <RentalProperty/>
+            <BuyOrSell/>
 
         </div>
     )

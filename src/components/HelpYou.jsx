@@ -55,9 +55,9 @@ const HelpYou = () => {
                         <div className="text-center mb-4">
                             "Rent Your Haven: Where Comfort Meets Convenience!" 
                         </div>
-                        <button className="border-black border-2 py-4 px-8 rounded-2xl text-lg mb-3 flex">Find a Rental 
+                        <button className="border-black border-2   py-4 px-8 rounded-2xl text-lg mb-3 flex">Find a Rental 
                         <img src={arrow} alt="arrow" className=" ml-2 mt-2" />
-                    </button>
+                        </button>
                     </div>
                 </div>
             </div>
