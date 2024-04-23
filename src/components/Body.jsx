@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import HelpYou from './HelpYou';
 import RentalProperty from './RentProperty';
 import BuyOrSell from './BuyOrSell';
+import WhyChooseUs from './WhyChooseUs';
 
 const Body = () => {
 
@@ -113,6 +114,7 @@ const Body = () => {
             <HelpYou/>
             <RentalProperty/>
             <BuyOrSell/>
+            <WhyChooseUs/>
 
         </div>
     )

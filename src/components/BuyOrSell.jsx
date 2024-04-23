@@ -3,7 +3,7 @@ import arrow2 from "/images/arrow2.svg"
 
 const BuyOrSell = () => {
   return (
-    <div>
+    <div className=" h-[420px]">
         <div className="absolute">
           <img src="/images/bgImg2.jpg" alt="background_Image2" />
         </div>
