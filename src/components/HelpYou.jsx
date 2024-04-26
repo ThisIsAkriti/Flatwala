@@ -5,7 +5,7 @@ import arrow from "/images/arrow.svg";
 import arrow2 from "/images/arrow2.svg";
 const HelpYou = () => {
     return(
-        <div className="font-poppins mt-5">
+        <div className="font-poppins mt-20 mb-20">
             <div className="flex items-center justify-center">
                 <h1 className="text-3xl mt-2 font-semibold">See How Flatwala.In Can Help You</h1>
             </div>

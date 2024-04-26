@@ -2,13 +2,14 @@ import logo from '/images/logo.jpeg';
 import Headroom from "react-headroom";
 
 const Header = () => {
+    //font-outfit in header only
     return(
         <>
         <Headroom>
-            <header className=" flex justify-between h-14 bg-black items-center font-poppins px-6">
+            <header className=" flex justify-between h-16 bg-black items-center font-poppins px-6">
                 <div>
                    <img
-                   className="size-14"
+                   className="size-14 mt-1"
                     src={logo} alt="logo" />
                 </div>
                 <div>
@@ -20,9 +21,11 @@ const Header = () => {
                         <li className='hover:text-mycolor cursor-pointer'>ABOUT US</li>
                     </ul>
                 </div>
-                <div>
-                    <button className="bg-mycolor2 rounded-sm py-2 px-4 text-text-color">Add Property</button>
-                    <button className=" bg-mycolor px-4 py-0 ml-10 shadow-mycolor shadow-md rounded-full font-semibold  text-white">Login</button>
+                <div className='flex items-center'>
+                    <button className="bg-mycolor2 rounded-sm py-2 px-4 text-text-color flex">Add Property
+                    <img src="/images/arrow3.svg" alt="arrow" className='ml-2 mt-1' />
+                    </button>
+                    <button className=" bg-mycolor px-6 ml-10 shadow-mycolor shadow-md rounded-full h-8 font-semibold  text-white">Login</button>
                 </div>
             </header>
         

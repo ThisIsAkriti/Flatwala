@@ -14,10 +14,13 @@ const RentalProperty = () => {
     return(
         <div className=" font-poppins mb-14 ">
            <div className='ml-16  mb-4'>
-                <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Properties For</p>
-                <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Rent</p>
-                <p className=' text-black mt-2'>Properties on rent as per</p>
-                <p className=' text-black'>your requirement</p>
+                <div className='font-bold text-5xl flex'>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-red to-purple">
+                    Properties For</p>
+                </div>
+                <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Rent</p>
+                <p className=' text-black mt-2 text-xl'>Properties on rent as per</p>
+                <p className=' text-black text-xl'>your requirement</p>
             </div>
 
 

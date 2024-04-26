@@ -1,28 +1,20 @@
 import bgImg from '/images/bgImg.jpeg';
 import search_Icon from '/images/search_Icon.png'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import HelpYou from './HelpYou';
 import RentalProperty from './RentProperty';
 import BuyOrSell from './BuyOrSell';
 import WhyChooseUs from './WhyChooseUs';
-
+import Testimonials from  './Testimonials.jsx';
+import Footer from './Footer.jsx'
+import FeaturedCarousel from './FeaturedCarousel.jsx';
 const Body = () => {
 
-    var settings = {
-       
-        infinite: true,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 3
-      
-    };
+    
 
     return(
         <div className=' font-poppins'>
             
-            <div>
+            <div className='h-[766px]'>
                 <div className='absolute'>
                   <img className='mt-10 w-screen ' src={bgImg} alt="background image" />
                 </div>
@@ -35,86 +27,35 @@ const Body = () => {
                             <input
                             className='py-3 px-4 w-11/12 rounded-md mr-2 bg-gray-300 text-black outline-none placeholder:text-gray-700'
                             type="text" placeholder='Enter keyword like apartment...' />
-                            <button className='bg-gradient-to-b from-orange-700 to-yellow-500 p-3 rounded-md'>
-                                <img className='size-8' src={search_Icon} alt="search" />
+                            <button className='bg-gradient-to-b  from-SearchOrange to-SearchYello  p-3 rounded-md shadow-gray-700 shadow-md'>
+                               
+                                <img className='size-6 ' src={search_Icon} alt="search" />
+                            
+                               
                             </button>
                         </div>
                      </div>
                 </div>
+
                 
+                <div className='absolute mt-[48%] ml-8'>
+                    <div className=' h-[49px] mb-16'>
+                        <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Discover Our Featured</p>
+                        <p className='flex font-bold text-5xl h-14 bg-clip-text text-transparent bg-gradient-to-r from-red to-purple bg-green-400'>Listings</p>
+                    </div>
+                   
+                    <p className=' text-gray-600 text-[24px]'>Our Top Notch Property</p>
+                </div>
+                    
             </div>
 
-            <div className='absolute mt-[48%] ml-8'>
-                <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Discover Our Featured</p>
-                <p className='font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Listings</p>
-                <p className=' text-gray-600 mt-2 mb-8'>Our Top Notch Property</p>
-            </div>
-
-
-            <div className='mt-[58%] flex-row items-center px-6'>
-                <Slider {...settings}>
-                    <div className='p-2 '>
-                        
-                        <img className=' w-60 ' src="/images/img1.jpg" alt="flat image" />
-                        <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
-                      
-                        <p className=' mt-2'>House on cliff</p>
-                    </div>
-                    <div className='p-2 '>
-
-                       <img className=' w-60' src="/images/img2.jpg" alt="flat image" />
-                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
-
-                       <p>Independent house</p>
-
-                    </div>
-
-                    <div className='p-2 '>
-
-                       <img className=' w-60' src="/images/img3.jpg" alt="flat image" />
-                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>    
-
-                       <p>Fully furnished Home Chattarpur</p>
-
-                    </div>
-
-                    <div className='p-2 '>
-
-                      <img className=' w-60' src="/images/img1.jpg" alt="flat image" />
-                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
-
-                      <p>House on hollywood</p>
-
-                    </div>
-
-                    <div className='p-2 '>
-                        
-                      <img className=' w-60' src="/images/img2.jpg" alt="flat image" />
-                      <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
-
-                      <p>Independent house</p>
-
-                    </div>
-                    <div className='p-2 '>
-                       <img className=' w-60'  src="/images/img1.jpg" alt="flat image" />
-                       <button className='absolute bg-featuredButton -mt-36 ml-4 px-4 py-1 rounded-md text-white text-sm font-medium'>Featured</button>
-                        <button className='absolute bg-amt font-semibold -mt-12 ml-4 px-3 py-1 rounded-md'>$567K</button>
-
-                       <p>Fully furnished Home Chattarpur</p>
-
-                    </div>
-                </Slider>
-            </div>
-
+            <FeaturedCarousel/>
             <HelpYou/>
             <RentalProperty/>
             <BuyOrSell/>
             <WhyChooseUs/>
+            <Testimonials/>
+            <Footer/>
 
         </div>
     )
