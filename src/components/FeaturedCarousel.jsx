@@ -13,7 +13,7 @@ const FeaturedCarousel = () => {
     };
   return (
     <div className=" h-[281px] mt-12 ml-4 mr-4">
-    <Slider {...settings}>
+    <Slider {...settings} className="outline-none">
 
     <div className=' h-[277px] px-4 '>
         

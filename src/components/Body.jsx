@@ -20,8 +20,13 @@ const Body = () => {
                 </div>
                 <div className='flex justify-center'>
                     <div className=' w-10/12 items-center h-40 bg-black bg-opacity-50 absolute flex flex-col mt-[24%] rounded-xl'>
-                        <div className='  bg-white rounded-full flex justify-center py-3 px-10 w-4/12 -mt-6 mb-12'>
-                            Batla house Delhi,
+                        <div className='  bg-white rounded-full flex justify-center items-center py-3 px-10 w-[409px] -mt-6 mb-12'>
+                            <p className='text-xs w-24 flex items-center text-slateGray'>
+                                <img className=' mr-2 size-4' src="/images/location.png" alt="location" />
+                                Batla house, Delhi
+                            </p>
+                            <img src="/images/dropDownArrow.png" className='size-4 ml-10' alt="drop down arrow" />
+                           
                         </div>
                         <div className='w-7/12 flex'>
                             <input
@@ -40,8 +45,8 @@ const Body = () => {
                 
                 <div className='absolute mt-[48%] ml-8'>
                     <div className=' h-[49px] mb-16'>
-                        <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-red to-purple'>Discover Our Featured</p>
-                        <p className='flex font-bold text-5xl h-14 bg-clip-text text-transparent bg-gradient-to-r from-red to-purple bg-green-400'>Listings</p>
+                        <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple'>Discover Our Featured</p>
+                        <p className='flex font-bold text-5xl h-14 bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple '>Listings</p>
                     </div>
                    
                     <p className=' text-gray-600 text-[24px]'>Our Top Notch Property</p>

@@ -105,7 +105,6 @@ const Footer = () => {
               </div>
             </div>
 
-
           </div>
 
         </div>
@@ -134,8 +133,15 @@ const Footer = () => {
           </div>
           <ul className="flex w-56 justify-evenly font-bold">
             <li>Privacy</li>
-            <li>•Terms</li>
-            <li>•Sitemap</li>
+            
+            <li className="flex items-center">
+              <img src="/images/before.svg" alt="dot" className=" mr-4 size-1" />
+              Terms
+            </li>
+
+            <li className="flex items-center">
+              <img src="/images/before.svg" alt="dot" className=" mr-4 size-1" />Sitemap
+            </li>
           </ul>
 
          
