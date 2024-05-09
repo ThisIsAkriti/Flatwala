@@ -14,13 +14,13 @@ const Body = () => {
     return(
         <div className=' font-poppins'>
             
-            <div className='h-[766px]'>
+            <div className='h-[660px]'>
                 <div className='absolute'>
-                  <img className='mt-10 w-screen ' src={bgImg} alt="background image" />
+                  <img className='mt-10 w-screen h-[571px] object-cover' src={bgImg} alt="background image" />
                 </div>
                 <div className='flex justify-center'>
-                    <div className=' w-10/12 items-center h-40 bg-black bg-opacity-50 absolute flex flex-col mt-[24%] rounded-xl'>
-                        <div className='  bg-white rounded-full flex justify-center items-center py-3 px-10 w-[409px] -mt-6 mb-12'>
+                    <div className=' w-10/12 items-center h-40 bg-black bg-opacity-50 absolute flex flex-col 2xl:mt-[24%] xl:mt-[24%] lg:mt-[30%]  md:mt-[30%] sm:mt-[40%] mt-[52%] rounded-xl '>
+                        <div className='  bg-white rounded-full flex justify-center items-center py-3 px-10 xl:w-[409px] lg:w-[400px] md:w-[400px] sm:w-[400px] w-[300px] -mt-6 mb-12'>
                             <p className='text-xs w-24 flex items-center text-slateGray'>
                                 <img className=' mr-2 size-4' src="/images/location.png" alt="location" />
                                 Batla house, Delhi
@@ -39,19 +39,9 @@ const Body = () => {
                                
                             </button>
                         </div>
-                     </div>
-                </div>
-
-                
-                <div className='absolute mt-[48%] ml-8'>
-                    <div className=' h-[49px] mb-16'>
-                        <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple'>Discover Our Featured</p>
-                        <p className='flex font-bold text-5xl h-14 bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple '>Listings</p>
                     </div>
-                   
-                    <p className=' text-gray-600 text-[24px]'>Our Top Notch Property</p>
+               
                 </div>
-                    
             </div>
 
             <FeaturedCarousel/>

@@ -2,19 +2,19 @@ const Footer = () => {
   return (
     <div className="bg-gradient-to-b from-footerTop to-footerBottom mt-14
     ">
-       <div className="absolute flex text-white ml-[1100px] mt-10">
-          <p className="font-bold mt-5 mr-4 ">Owned By:</p>
-          <div className="flex">
-            <div className="flex flex-col items-center">
-              <img src="/images/saif.jpg" alt="PersonImg1" className="w-[58px] h-[58px] rounded-full border bg-gradient-to-b from-pinkGradient to-blueGradient p-px "/>
-              <p className=" text-sm mt-3">Saif</p>
-            </div>
-            <div className="flex flex-col items-center -ml-3">
-              <img src="/images/faizan.jpg" alt="PersonImg2" className="w-[58px] h-[58px] rounded-full border bg-gradient-to-b from-pinkGradient to-blueGradient p-px"/>
-              <p className="mt-3 text-sm">Faizan</p>
-            </div>
+      <div className="absolute flex text-white ml-[1100px] mt-10">
+        <p className="font-bold mt-5 mr-4 truncate">Owned By:</p>
+        <div className="flex">
+          <div className="flex flex-col items-center">
+            <img src="/images/saif.jpg" alt="PersonImg1" className="w-[58px] h-[58px] rounded-full border bg-gradient-to-b from-pinkGradient to-blueGradient p-px "/>
+            <p className=" text-sm mt-3">Saif</p>
+          </div>
+          <div className="flex flex-col items-center -ml-3">
+            <img src="/images/faizan.jpg" alt="PersonImg2" className="w-[58px] h-[58px] rounded-full border bg-gradient-to-b from-pinkGradient to-blueGradient p-px"/>
+            <p className="mt-3 text-sm">Faizan</p>
           </div>
         </div>
+      </div>
       <div className="h-screen flex flex-col items-center ">
         
         <div className="mt-12">

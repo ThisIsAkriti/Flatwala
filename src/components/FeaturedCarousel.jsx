@@ -12,7 +12,17 @@ const FeaturedCarousel = () => {
       
     };
   return (
-    <div className=" h-[281px] mt-12 ml-4 mr-4">
+  <>
+    <div className='absolute ml-8'>
+      <div className=' h-[49px] mb-16'>
+          <p className='font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple'>Discover Our Featured</p>
+          <p className='flex font-bold text-5xl h-14 bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple '>Listings</p>
+      </div>
+
+      <p className=' text-gray-600 text-[24px]'>Our Top Notch Property</p>
+    </div>
+
+    <div className=" h-[281px] mt-44 ml-4 mr-4">
     <Slider {...settings} className="outline-none">
 
     <div className=' h-[277px] px-4 '>
@@ -74,6 +84,7 @@ const FeaturedCarousel = () => {
     </div>
     </Slider>
     </div>
+    </>
   )
 }
 
