@@ -26,7 +26,7 @@ export default {
         'whiteGray' : 'rgba(255, 255, 255, 0.15)',
         'pinkGradient': 'rgba(235, 82, 82, 1)',
         'blueGradient': 'rgba(90, 216, 244, 1)',
-        'slateGray':'rgba(37, 43, 92, 1)'
+        'slateGray':'rgba(37, 43, 92, 1)',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
