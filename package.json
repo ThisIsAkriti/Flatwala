@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "browserslist": "^4.23.0",
     "headroom.js": "^0.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,6 +30,6 @@
     "postcss": "^8.4.38",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.3",
-    "vite": "^5.2.11"
+    "vite": "^5.2.12"
   }
 }

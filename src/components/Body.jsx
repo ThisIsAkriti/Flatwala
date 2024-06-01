@@ -26,7 +26,7 @@ const Body = () => {
     return(
         <div className=' font-poppins'>
             
-            <div className='h-[660px]'>
+            <div className='md:h-[660px] h-[220px] '>
                 <div className='absolute'>
                   <img className='md:mt-10 xl:mt-10 mt-2 w-screen md:h-[571px] xl:h-[571px]  object-cover' src={bgImg} alt="background image" />
                 </div>
