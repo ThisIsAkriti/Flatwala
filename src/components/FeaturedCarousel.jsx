@@ -4,14 +4,14 @@ import Slider from "react-slick";
 import { useEffect, useState } from "react";
 
 const FeaturedCarousel = () => {
-    var settings = {
-       
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3.5,
-        slidesToScroll: 3
+  var settings = {
       
-    };
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3.5,
+    slidesToScroll: 3
+    
+  };
 
     const [isSmall , setIsSmall] = useState(window.innerWidth <= 640);
 

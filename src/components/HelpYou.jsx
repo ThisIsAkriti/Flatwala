@@ -5,14 +5,14 @@ import arrow from "/images/arrow.svg";
 import arrow2 from "/images/arrow2.svg";
 const HelpYou = () => {
     return(
-        <div className="font-poppins mt-20 mb-20">
+        <div className="font-poppins md:mt-20 md:mb-20 mb-12">
             <div className="flex items-center justify-center">
-                <h1 className="text-3xl mt-2 font-semibold">See How Flatwala.In Can Help You</h1>
+                <h1 className="md:text-3xl text-[28px] mt-2 font-semibold">See How Flatwala.In Can Help You</h1>
             </div>
 
-            <div className="flex justify-center">
-                <div className=" p-4 flex  mt-8"> 
-                    <div className="rounded-xl w-96 flex flex-col justify-center items-center px-6 py-4">
+            <div className="flex md:flex-row flex-col justify-center items-center">
+                <div className=" p-4 flex  md:mt-8"> 
+                    <div className="rounded-xl w-96 flex flex-col justify-center items-center px-6 md:py-4">
                         <div className="mt-6">
                             <img className="size-36" src={icon1} alt="House_Image1"/>
                         </div>
@@ -28,8 +28,8 @@ const HelpYou = () => {
                        
                     </div>
                 </div>
-                <div className=" p-4 flex  mt-8"> 
-                    <div className="rounded-xl shadow-gray-300 shadow-md w-80 flex flex-col justify-center items-center px-6 py-4">
+                <div className=" p-4 flex  md:mt-8"> 
+                    <div className="rounded-xl md:w-96 w-80 flex flex-col justify-center items-center px-6 md:py-4">
                         <div className="mt-6">
                             <img className="size-36" src={icon2} alt="House_Image1"/>
                         </div>
@@ -46,8 +46,8 @@ const HelpYou = () => {
                         
                     </div>
                 </div>
-                <div className=" p-4 flex mt-8"> 
-                    <div className="rounded-xl w-96 flex flex-col justify-center items-center px-6 py-4">
+                <div className=" p-4 flex md:mt-8"> 
+                    <div className="rounded-xl w-96 flex flex-col justify-center items-center px-6 md:py-4">
                         <div className="mt-6">
                             <img className="size-36" src={icon3} alt="House_Image1"/>
                         </div>
