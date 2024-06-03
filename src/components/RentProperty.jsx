@@ -44,7 +44,7 @@ const RentalProperty = () => {
      
         <div className=" font-poppins">
            
-           <div className='ml-16 mb-4'>
+           <div className='md:ml-16 ml-8 md:mb-4 mb-6'>
                 <div className='font-bold text-5xl flex'>
                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-orange to-purple">
                     Properties For</p>
@@ -57,7 +57,7 @@ const RentalProperty = () => {
            </div>
 
            {isSmall?
-            <div className=" ml-16 h-[220px] ">
+            <div className=" mx-4 h-[220px] ">
                 <Slider {...settings} className="outline-none">
             
                 <div className=' h-[277px] px-4 '>
