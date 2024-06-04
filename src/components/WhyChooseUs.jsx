@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
         };
     } , [])
   return (
-    <div className="mt-20 h-[660px] p-6">
+    <div className="mt-20 bg-pink-400 md:h-[660px] p-6">
 
         {isSmall? 
         <div>
@@ -24,42 +24,48 @@ const WhyChooseUs = () => {
             </div> 
 
             <div className=" space-y-6">
-                <div className=" bg-pink-900 flex flex-col items-center justify-center ">
-                    <div className="bg-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
+                <div className=" flex flex-col items-center justify-center ">
+                    <div className="bg-black text-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
                         <p className="text-3xl font-extrabold">1</p>
                     </div>
                     <div className=" w-[320px] flex flex-col items-center ">
                         <p className=" text-sm font-bold my-2">Brokerage Free Move in</p>
-                        <p className=" text-sm flex items-center bg-green-400 justify-center">No brokerage included while moving in, you just have to pay the rent only.</p>
+                       
+                        <p className=" text-sm flex text-center justify-center">No brokerage included while moving in, you just have to pay the rent only.</p>
+                       
                     </div>
                 </div>
-                <div className="flex items-center">
-                    <div className="bg-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
-                        <p className=" text-3xl font-extrabold">2</p>
+
+                <div className=" flex flex-col items-center justify-center ">
+                    <div className="bg-black text-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
+                        <p className="text-3xl font-extrabold">2</p>
                     </div>
-                    <div className=" w-[310px] ">
-                        <p className=" text-sm font-bold mb-3">No Extra Deposite</p>
-                        <p className=" text-sm">Now, you dont need to pay any extra money as a deposite.</p>
-                    </div>
-                </div>
-                <div className="flex items-center">
-                    <div className="bg-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
-                        <p className=" text-3xl font-extrabold">3</p>
-                    </div>
-                    <div className=" w-[310px] ">
-                        <p className=" text-sm font-bold mb-3">The EMI option</p>
-                        <p className=" text-sm">Now, You can pay the rent in the form of paylater or on the easy istallments.</p>
+                    <div className=" w-[320px] flex flex-col items-center ">
+                        <p className=" text-sm font-bold my-2">No Extra Deposite</p>
+                        <p className=" text-sm flex items-center  justify-center">Now, you dont need to pay any extra money as a deposite.</p>
                     </div>
                 </div>
-                <div className="flex items-center">
-                <div className="bg-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
-                        <p className=" text-3xl font-extrabold">4</p>
+
+                <div className=" flex flex-col items-center justify-center ">
+                    <div className="bg-black text-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
+                        <p className="text-3xl font-extrabold">3</p>
                     </div>
-                    <div className=" w-[310px]">
-                        <p className=" text-sm font-bold mb-3">You get insurance</p>
-                        <p className=" text-sm">This benefit is for landlord or land-owners only.</p>
+                    <div className=" w-[320px] flex flex-col items-center ">
+                        <p className=" text-sm font-bold my-2">The EMI option</p>
+                        <p className=" text-sm flex items-center  justify-center">Now, You can pay the rent in the form of paylater or on the easy istallments.</p>
                     </div>
                 </div>
+
+                <div className=" flex flex-col items-center justify-center ">
+                    <div className="bg-black text-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
+                        <p className="text-3xl font-extrabold">4</p>
+                    </div>
+                    <div className=" w-[320px] flex flex-col items-center ">
+                        <p className=" text-sm font-bold my-2">You get insurance</p>
+                        <p className=" text-sm flex items-center  justify-center">This benefit is for landlord or land-owners only.</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
         :
