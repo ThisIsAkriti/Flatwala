@@ -28,8 +28,10 @@ const [isSmall , setIsSmall] = useState(window.innerWidth <= 640);
   return (
 
     <div className="h-96 mt-14 flex flex-col">
-      <div className="text-4xl mb-14 flex justify-center font-bold text-center">
-        <p className="bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">Testimonials</p>
+      <div className="text-4xl md:mb-14 mb-6 flex justify-center font-bold text-center">
+        <p className="bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">
+          {isSmall? 'Testimonial' : 'Testimonials'}
+        </p>
       </div>
       <div className=" px-20">
         {isSmall? 

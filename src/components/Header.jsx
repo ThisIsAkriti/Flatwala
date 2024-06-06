@@ -6,10 +6,10 @@ const Header = () => {
     return(
         <>
         <Headroom>
-            <header className=" flex justify-between h-16 w-screen bg-black items-center font-poppins px-6">
+            <header className=" flex justify-between h-16 w-full bg-black items-center font-poppins px-6">
                 <div>
                    <img
-                   className="size-14 max-w-14 max-h-14 mt-1 object-contain"
+                   className="size-14 max-w-14 max-h-14 mt-1 object-contain -ml-2"
                     src={logo} alt="logo" />
                 </div>
                 <div className=' hidden md:flex  '>
@@ -26,7 +26,7 @@ const Header = () => {
                     <img src="/images/arrow3.svg" alt="arrow" className='ml-2 mt-1' />
                     </button>
                     <button className=" bg-mycolor px-6 mr-6 md:mr-0 ml-10 shadow-mycolor shadow-md rounded-full h-8 font-semibold  text-white">Login</button>
-                    <div className='md:m-0 mr-4'>
+                    <div className=''>
                         <img className='md:hidden' src="./images/hamburgerMenu.png" alt="menu" />
                     </div>
                 </div>

@@ -14,13 +14,13 @@ const WhyChooseUs = () => {
         };
     } , [])
   return (
-    <div className="mt-20 bg-pink-400 md:h-[660px] p-6">
+    <div className="mt-20 md:h-[660px] p-6">
 
         {isSmall? 
         <div>
-            <div className="mb-2">
-                <p className=" text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">Why Choose</p>
-                <p className=" text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">Us</p>
+            <div className="mb-4">
+                <p className=" text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">Why </p>
+                <p className=" text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange to-blue">Choose Us</p>
             </div> 
 
             <div className=" space-y-6">
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className=" w-[320px] flex flex-col items-center ">
                         <p className=" text-sm font-bold my-2">No Extra Deposite</p>
-                        <p className=" text-sm flex items-center  justify-center">Now, you dont need to pay any extra money as a deposite.</p>
+                        <p className=" text-sm flex text-center  justify-center">Now, you dont need to pay any extra money as a deposite.</p>
                     </div>
                 </div>
 
@@ -50,9 +50,9 @@ const WhyChooseUs = () => {
                     <div className="bg-black text-white px-6 py-4 rounded-full flex items-center justify-center mr-4">
                         <p className="text-3xl font-extrabold">3</p>
                     </div>
-                    <div className=" w-[320px] flex flex-col items-center ">
+                    <div className=" w-[315px] flex flex-col items-center ">
                         <p className=" text-sm font-bold my-2">The EMI option</p>
-                        <p className=" text-sm flex items-center  justify-center">Now, You can pay the rent in the form of paylater or on the easy istallments.</p>
+                        <p className=" text-sm flex text-center  justify-center">Now, You can pay the rent in the form of paylater or on the easy istallments.</p>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className=" w-[320px] flex flex-col items-center ">
                         <p className=" text-sm font-bold my-2">You get insurance</p>
-                        <p className=" text-sm flex items-center  justify-center">This benefit is for landlord or land-owners only.</p>
+                        <p className=" text-sm flex text-center  justify-center">This benefit is for landlord or land-owners only.</p>
                     </div>
                 </div>
                 

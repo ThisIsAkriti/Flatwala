@@ -7,7 +7,7 @@ const HelpYou = () => {
     return(
         <div className="font-poppins md:mt-20 md:mb-20 mb-12">
             <div className="flex items-center justify-center">
-                <h1 className="md:text-3xl text-[28px] mt-2 font-semibold">See How Flatwala.In Can Help You</h1>
+                <h1 className="md:text-3xl text-[26px] mt-2 font-semibold">See How Flatwala.In Can Help You</h1>
             </div>
 
             <div className="flex md:flex-row flex-col justify-center items-center">
